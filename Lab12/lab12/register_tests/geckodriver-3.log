@@ -1,0 +1,2 @@
+1725729192743	geckodriver	INFO	Listening on 127.0.0.1:49231
+1725729193114	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ql/1lvlprkj75x7zg5920_z6k800000gn/T/rust_mozprofileMNdVZe"

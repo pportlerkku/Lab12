@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20240908 00:56:18.672" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.18 on darwin)">
+<suite source="/Users/ptpspp/Desktop/SoftwareQA/Lab12/Starterfiles/Lab12/lab12/register_tests/valid_inputAll.robot" id="s1" name="valid inputAll">
+<test id="s1-t1" name="Register and Verify Success Page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240908 00:56:18.796" level="INFO">Opening browser 'firefox' to base url 'http://localhost:7272/Lab12/Registration.html'.</msg>
+<msg timestamp="20240908 00:56:18.797" level="INFO">Firefox driver log is always forced to to: /Users/ptpspp/Desktop/SoftwareQA/Lab12/Starterfiles/Lab12/lab12/register_tests/geckodriver-28.log</msg>
+<status status="PASS" endtime="20240908 00:56:22.445" starttime="20240908 00:56:18.796"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=firstname</arg>
+<arg>${FIRST_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:22.446" level="INFO">Typing text 'Somsri' into text field 'id=firstname'.</msg>
+<status status="PASS" endtime="20240908 00:56:22.594" starttime="20240908 00:56:22.446"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=lastname</arg>
+<arg>${LAST_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:22.595" level="INFO">Typing text 'Sodsai' into text field 'id=lastname'.</msg>
+<status status="PASS" endtime="20240908 00:56:22.611" starttime="20240908 00:56:22.594"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=organization</arg>
+<arg>${ORGANIZATION}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:22.612" level="INFO">Typing text 'CS KKU' into text field 'id=organization'.</msg>
+<status status="PASS" endtime="20240908 00:56:22.625" starttime="20240908 00:56:22.611"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:22.625" level="INFO">Typing text 'somsri@kkumail.com' into text field 'id=email'.</msg>
+<status status="PASS" endtime="20240908 00:56:22.638" starttime="20240908 00:56:22.625"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=phone</arg>
+<arg>${PHONE_NO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:22.638" level="INFO">Typing text '081-001-1234' into text field 'id=phone'.</msg>
+<status status="PASS" endtime="20240908 00:56:22.648" starttime="20240908 00:56:22.638"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id=registerButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:22.648" level="INFO">Clicking button 'id=registerButton'.</msg>
+<status status="PASS" endtime="20240908 00:56:22.703" starttime="20240908 00:56:22.648"/>
+</kw>
+<kw name="Location Should Contain" library="SeleniumLibrary">
+<arg>${SUCCESS_URL}</arg>
+<doc>Verifies that the current URL contains ``expected``.</doc>
+<msg timestamp="20240908 00:56:22.706" level="INFO">Current location contains 'http://localhost:7272/Lab12/Success.html'.</msg>
+<status status="PASS" endtime="20240908 00:56:22.706" starttime="20240908 00:56:22.703"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20240908 00:56:23.281" starttime="20240908 00:56:22.706"/>
+</kw>
+<status status="PASS" endtime="20240908 00:56:23.281" starttime="20240908 00:56:18.795"/>
+</test>
+<test id="s1-t2" name="Register and FirstName">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240908 00:56:23.283" level="INFO">Opening browser 'firefox' to base url 'http://localhost:7272/Lab12/Registration.html'.</msg>
+<msg timestamp="20240908 00:56:23.283" level="INFO">Firefox driver log is always forced to to: /Users/ptpspp/Desktop/SoftwareQA/Lab12/Starterfiles/Lab12/lab12/register_tests/geckodriver-29.log</msg>
+<status status="PASS" endtime="20240908 00:56:26.623" starttime="20240908 00:56:23.282"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=lastname</arg>
+<arg>${LAST_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:26.624" level="INFO">Typing text 'Sodsai' into text field 'id=lastname'.</msg>
+<status status="PASS" endtime="20240908 00:56:26.737" starttime="20240908 00:56:26.623"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=organization</arg>
+<arg>${Organization}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:26.738" level="INFO">Typing text 'CS KKU' into text field 'id=organization'.</msg>
+<status status="PASS" endtime="20240908 00:56:26.752" starttime="20240908 00:56:26.738"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:26.752" level="INFO">Typing text 'somsri@kkumail.com' into text field 'id=email'.</msg>
+<status status="PASS" endtime="20240908 00:56:26.767" starttime="20240908 00:56:26.752"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=phone</arg>
+<arg>${PHONE_NO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:26.768" level="INFO">Typing text '081-001-1234' into text field 'id=phone'.</msg>
+<status status="PASS" endtime="20240908 00:56:26.779" starttime="20240908 00:56:26.767"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id=registerButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20240908 00:56:26.780" level="INFO">Clicking button 'id=registerButton'.</msg>
+<status status="PASS" endtime="20240908 00:56:27.006" starttime="20240908 00:56:26.780"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>id=errors</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" endtime="20240908 00:56:27.024" starttime="20240908 00:56:27.006"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>id=errors</arg>
+<arg>${ERORR}</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240908 00:56:27.028" level="FAIL">Variable '${ERORR}' not found.</msg>
+<status status="FAIL" endtime="20240908 00:56:27.028" starttime="20240908 00:56:27.025"/>
+</kw>
+<kw name="Close">
+<arg>Browser</arg>
+<status status="NOT RUN" endtime="20240908 00:56:27.035" starttime="20240908 00:56:27.035"/>
+</kw>
+<status status="FAIL" endtime="20240908 00:56:27.036" starttime="20240908 00:56:23.282">Variable '${ERORR}' not found.</status>
+</test>
+<status status="FAIL" endtime="20240908 00:56:27.037" starttime="20240908 00:56:18.673"/>
+</suite>
+<statistics>
+<total>
+<stat fail="1" skip="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" skip="0" id="s1" name="valid inputAll" pass="1">valid inputAll</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

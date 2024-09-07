@@ -1,0 +1,3 @@
+1725729205533	geckodriver	INFO	Listening on 127.0.0.1:49344
+1725729206545	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ql/1lvlprkj75x7zg5920_z6k800000gn/T/rust_mozprofilelz8TCc"
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
